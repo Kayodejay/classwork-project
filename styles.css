@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 2rem;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url("/images/background.png");
+    font-family: karla;
+    font-weight: 300px;
+}
+
+/* ||HEADER */
+
+.header-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-section nav{
+    display: flex;
+    align-items: center;
+}
+
+.header-section nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-section nav ul li{
+    list-style: none;
+}
+
+.header-section nav ul li a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.header-section input{
+    width: fit-content;
+    border-radius: 10px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    margin: 35px 0;
+}
+
+/* ||SECTION */
+.flex-area{
+    display: flex;
+    justify-content: space-between;
+    line-height: 3rem;
+    padding: 30px;
+    align-items: center;
+}
+
+.flex-area div h1{
+    font-size: 70px;
+    color: rgb(31, 31, 71);
+    padding: 20px 0;
+}
+
+.flex-area div p{
+    font-size: 30px;
+}
+
+.colored{
+    color: aqua;
+}
+
+.flex-area div h2{
+    border-radius: 10px;
+    color: #f4f4f4;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 6px 18px;
+    text-align: center;
+    margin: 12px;
+    width: fit-content;
+    background: linear-gradient(to bottom right, rgb(48, 255, 48), rgb(255, 0, 255));
+}
+
+.button{
+    display: flex;
+}
+
+.text-about{
+    padding: 20px;
+}
+
+.image-sect {
+    display: flex;
+    justify-content: end;
+}
+
+.flex-area div img{
+    height: 100%;
+}
+
+.links{
+    display: flex;
+    align-items: end;
+}
+
+.links nav ul li{
+    list-style: none;
+}
+
+.links nav ul li a{
+    color: black;
+}
+
+
+
+

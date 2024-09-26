@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -6,8 +8,8 @@
 }
 
 body{
-    min-height: 100vh;
-    background-image: url("/images/background.png");
+    height: 100vh;
+    background-image: url("./images/background.png");
     font-family: karla;
     font-weight: 300px;
 }
@@ -41,31 +43,45 @@ body{
 }
 
 .header-section input{
-    width: fit-content;
-    border-radius: 10px;
+    border-radius: 0 10px 10px 0;
     height: fit-content;
     display: flex;
     align-items: center;
     margin: 35px 0;
+    padding: 0 12px;
+    background-color: #e0e0e0;
+}
+
+.bars{
+    display: flex;
+}
+
+button{
+    border-radius: 10px 0 0 10px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    margin: 35px 0;
+    padding: 9.5px;
+    background-color: #e0e0e0;
 }
 
 /* ||SECTION */
 .flex-area{
     display: flex;
+    padding: 0 30px;
     justify-content: space-between;
-    line-height: 3rem;
-    padding: 30px;
     align-items: center;
 }
 
 .flex-area div h1{
-    font-size: 70px;
+    font-size: 80px;
     color: rgb(31, 31, 71);
-    padding: 20px 0;
+    padding: 35px 0;
 }
 
 .flex-area div p{
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .colored{
@@ -81,7 +97,7 @@ body{
     text-align: center;
     margin: 12px;
     width: fit-content;
-    background: linear-gradient(to bottom right, rgb(48, 255, 48), rgb(255, 0, 255));
+    background: linear-gradient(to bottom right, rgb(48, 255, 203), rgb(255, 0, 255));
 }
 
 .button{
@@ -90,20 +106,33 @@ body{
 
 .text-about{
     padding: 20px;
+    position: absolute;
+    top: 33.33%;
+    left: 8%;
 }
 
 .image-sect {
     display: flex;
     justify-content: end;
+    position: absolute;
+    bottom: 0;
+    right: 95px;
+    height: 87%;
 }
 
 .flex-area div img{
-    height: 100%;
+    width: 22em;
 }
 
 .links{
-    display: flex;
+    display: grid;
     align-items: end;
+    justify-content: center;
+    /* border: 2px dotted blue; */
+    width: 5%;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
 }
 
 .links nav ul li{
@@ -111,7 +140,7 @@ body{
 }
 
 .links nav ul li a{
-    color: black;
+    color: gray;
 }
 
 
